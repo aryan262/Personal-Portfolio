@@ -1,0 +1,86 @@
+import React from "react";
+import { CgWorkAlt } from "react-icons/cg";
+import { FaReact } from "react-icons/fa";
+import { LuGraduationCap } from "react-icons/lu";
+import netflixImg from "@/public/netflix.png";
+import xImg from "@/public/x.png";
+
+export const links = [
+  {
+    name: "Home",
+    hash: "#home",
+  },
+  {
+    name: "About",
+    hash: "#about",
+  },
+  {
+    name: "Projects",
+    hash: "#projects",
+  },
+  {
+    name: "Skills",
+    hash: "#skills",
+  },
+  {
+    name: "Experience",
+    hash: "#experience",
+  },
+  {
+    name: "Contact",
+    hash: "#contact",
+  },
+] as const;
+
+export const experiencesData = [
+  {
+    title: "Indian Institute of Information Technology Bhagalpur",
+    location: "Bachelor of Technology",
+    description:
+      "I am a final year BTech student pursuing a comprehensive curriculum in Computer Science Engineering with a focus on software development, data structures, algorithms, and system design. ",
+    icon: React.createElement(LuGraduationCap),
+    date: "2021-2025",
+  },
+  {
+    title: "12th Class",
+    location: "Rose Land Public School",
+    description:
+      "I completed my senior secondary education from here and achieved 89.6%",
+    icon: React.createElement(LuGraduationCap),
+    date: "2019 - 2021",
+  },
+] as const;
+
+export const projectsData = [
+  {
+    title: "Netflix Clone",
+    description:
+      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
+    tags: ["React", "MongoDB", "Tailwind", "NodeJS"],
+    imageUrl: netflixImg,
+    url: "https://netflix-2-ckyx.vercel.app/"
+  },
+  {
+    title: "Twitter Clone",
+    description:
+    "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+    tags: ["React", "MongoDB", "Tailwind", "NodeJS", "React Query"],
+    imageUrl: xImg,
+    url: "https://social-app-iorx.onrender.com/"
+  },
+] as const;
+
+export const skillsData = [
+  "HTML",
+  "CSS",
+  "JavaScript",,
+  "React",
+  "Node.js",
+  "Git",
+  "Tailwind",
+  "MongoDB",
+  "Redux",
+  "Express",
+  "PostgreSQL",
+  "Framer Motion",
+] as const;
