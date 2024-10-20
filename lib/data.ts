@@ -47,7 +47,7 @@ export const experiencesData = [
     description:
       "I completed my senior secondary education from here and achieved 89.6%",
     icon: React.createElement(LuGraduationCap),
-    date: "2020 - 2021",
+    date: "2019 - 2020",
   },
 ] as const;
 
