@@ -53,20 +53,20 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Netflix Clone",
-    description:
-      "This project is built using the MERN stack and Tailwind CSS, features user authentication, movie/series trailers, and a sleek UI for an enhanced viewing experience.",
-    tags: ["React", "MongoDB", "Tailwind", "NodeJS"],
-    imageUrl: netflixImg,
-    url: "https://netflix-2-ckyx.vercel.app/"
-  },
-  {
-    title: "Twitter Clone",
+    title: "TweetNest",
     description:
     "This project is developed using the MERN stack and Tailwind CSS, offers real-time tweets, user authentication, and an intuitive interface, mimicking the core functionality of Twitter.",
     tags: ["React", "MongoDB", "Tailwind", "NodeJS", "React Query"],
     imageUrl: xImg,
     url: "https://social-app-iorx.onrender.com/"
+  },
+  {
+    title: "FlixWorld",
+    description:
+      "This project is built using the MERN stack and Tailwind CSS, features user authentication, movie/series trailers, and a sleek UI for an enhanced viewing experience.",
+    tags: ["React", "MongoDB", "Tailwind", "NodeJS"],
+    imageUrl: netflixImg,
+    url: "https://netflix-2-ckyx.vercel.app/"
   },
 ] as const;
 
