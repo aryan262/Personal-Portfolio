@@ -80,7 +80,5 @@ export const skillsData = [
   "Tailwind",
   "MongoDB",
   "Redux",
-  "Express",
-  "PostgreSQL",
-  "Framer Motion",
+  "Express"
 ] as const;
